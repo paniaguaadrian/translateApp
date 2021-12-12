@@ -1,5 +1,5 @@
 import React from 'react'
-import { Text, Button } from 'react-native'
+import { StyleSheet, Text, Button } from 'react-native'
 
 // Custom Components
 import GeneralContainer from '../components/Layout/GeneralContainer'
@@ -19,3 +19,5 @@ const Home = ({ navigation }) => {
 }
 
 export default Home
+
+const styles = StyleSheet.create({})
